@@ -2,8 +2,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 /**
@@ -14,9 +13,9 @@ public class ActionsTest {
 
     @Test
     public void t1() throws InterruptedException {
-        FirefoxProfile profile = new FirefoxProfile();
-        profile.setEnableNativeEvents(true);
-        WebDriver driver = new FirefoxDriver();
+//        FirefoxProfile profile = new FirefoxProfile();
+//        profile.setEnableNativeEvents(true);
+        WebDriver driver = new ChromeDriver();
         driver.get("http://cn.bing.com");
         Actions builder = new Actions(driver);
         WebElement leftButton = driver.findElement(By.id("sh_lt"));

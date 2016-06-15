@@ -18,8 +18,9 @@ Selenium's source code is made available under the [Apache 2.0 license](https://
 
 ### Documentation
 
-- https://seleniumhq.github.io/docs/
+- http://www.seleniumhq.org/docs/cn/
 - http://docs.seleniumhq.org/docs/#selenium-documentation
+- https://seleniumhq.github.io/docs/
 - https://github.com/SeleniumHQ/selenium/wiki
 - https://sites.google.com/a/chromium.org/chromedriver/
 - http://selenium-release.storage.googleapis.com/index.html

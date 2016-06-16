@@ -5,6 +5,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -22,7 +23,8 @@ public class ByElementTest {
 
     @Test
     public void t1() {
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new HtmlUnitDriver(true);
+        // WebDriver driver = new ChromeDriver();
         driver.navigate().to("file:///Users/YUAN/Project/Selenium/selenium-startup/src/test/resources/test.html");
         WebElement el = driver.findElement(By.tagName("p"));
         assertEquals(el.getText(), "Hello from JavaScript!");

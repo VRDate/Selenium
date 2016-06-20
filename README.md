@@ -25,7 +25,7 @@ Selenium's source code is made available under the [Apache 2.0 license](https://
 - https://sites.google.com/a/chromium.org/chromedriver/
 - http://selenium-release.storage.googleapis.com/index.html
 
-### Use
+### Use Maven
 
 ```xml
     <dependency>
@@ -60,7 +60,7 @@ Selenium's source code is made available under the [Apache 2.0 license](https://
     </dependency>
 ```
 
-### Cookies
+### Add Cookies
 
 Three steps to add the cookie
 
@@ -77,6 +77,6 @@ Three steps to add the cookie
     driver.get("http://www.zhihu.com/");
 ```
 
-### Maven
+### Maven Map
 
 ![logo](maven.png)

@@ -60,6 +60,23 @@ Selenium's source code is made available under the [Apache 2.0 license](https://
     </dependency>
 ```
 
+### Cookies
+
+Three steps to add the cookie
+
+```java
+    Set<Cookie> cookies = ... ;
+    WebDriver driver = new ChromeDriver();
+    // 1. open domain
+    driver.get("http://www.zhihu.com/");
+    // 2. add cookie
+    for (Cookie cookie : cookies) {
+        driver.manage().addCookie(cookie);
+    }
+    // 3. refresh domain
+    driver.get("http://www.zhihu.com/");
+```
+
 ### Maven
 
 ![logo](maven.png)

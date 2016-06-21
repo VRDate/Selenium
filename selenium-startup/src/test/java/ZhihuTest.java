@@ -34,9 +34,9 @@ public class ZhiHuTest {
         WebElement login = WAIT.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[1]/div/div[2]/div[1]/div/a[2]")));
         ACTIONS.click(login).perform();
         WebElement username = WAIT.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[1]/div/div[2]/div[2]/form/div[1]/div[1]/input")));
-        ACTIONS.sendKeys(username, "caiyuan@live.com");
+        ACTIONS.sendKeys(username, "******");
         WebElement password = WAIT.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[1]/div/div[2]/div[2]/form/div[1]/div[2]/input")));
-        ACTIONS.sendKeys(password, "yuan295775783");
+        ACTIONS.sendKeys(password, "******");
         WebElement submit = WAIT.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[1]/div/div[2]/div[2]/form/div[2]/button")));
         ACTIONS.click(submit).perform();
     }

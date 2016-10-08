@@ -3,6 +3,10 @@
 - http://www.seleniumhq.org
 - https://github.com/SeleniumHQ/selenium
 
+### Dependent
+
+- [HtmlUnit](http://htmlunit.sourceforge.net/)
+
 ### About
 
 Selenium is an umbrella project encapsulating a variety of tools and

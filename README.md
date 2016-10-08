@@ -16,10 +16,6 @@ generously donated thousands of hours in code development and upkeep.
 
 Selenium's source code is made available under the [Apache 2.0 license](https://github.com/SeleniumHQ/selenium/blob/master/LICENSE).
 
-### Dependents
-
--  HtmlUnit http://htmlunit.sourceforge.net/
-
 ### Documentation
 
 - http://www.seleniumhq.org/docs/cn/
@@ -28,6 +24,10 @@ Selenium's source code is made available under the [Apache 2.0 license](https://
 - https://github.com/SeleniumHQ/selenium/wiki
 - https://sites.google.com/a/chromium.org/chromedriver/
 - http://selenium-release.storage.googleapis.com/index.html
+
+### Dependents
+
+-  HtmlUnit http://htmlunit.sourceforge.net/
 
 ### Maven Repository
 

@@ -29,6 +29,10 @@ Selenium's source code is made available under the [Apache 2.0 license](https://
 - https://sites.google.com/a/chromium.org/chromedriver/
 - http://selenium-release.storage.googleapis.com/index.html
 
+### Maven Repository
+
+- https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/
+
 ### Use Maven
 
 ```xml

@@ -18,7 +18,7 @@ Selenium's source code is made available under the [Apache 2.0 license](https://
 
 ### Dependents
 
-- [HtmlUnit](http://htmlunit.sourceforge.net/)
+-  HtmlUnit http://htmlunit.sourceforge.net/
 
 ### Documentation
 

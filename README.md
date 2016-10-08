@@ -3,10 +3,6 @@
 - http://www.seleniumhq.org
 - https://github.com/SeleniumHQ/selenium
 
-### Dependent
-
-- [HtmlUnit](http://htmlunit.sourceforge.net/)
-
 ### About
 
 Selenium is an umbrella project encapsulating a variety of tools and
@@ -19,6 +15,10 @@ The project is made possible by volunteer contributors who've
 generously donated thousands of hours in code development and upkeep.
 
 Selenium's source code is made available under the [Apache 2.0 license](https://github.com/SeleniumHQ/selenium/blob/master/LICENSE).
+
+### Dependents
+
+- [HtmlUnit](http://htmlunit.sourceforge.net/)
 
 ### Documentation
 
